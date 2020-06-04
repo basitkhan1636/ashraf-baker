@@ -1,0 +1,259 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.nav-link{
+    font-weight: 400 !important;
+    font-family: 'DM Mono', monospace;
+
+
+}
+.navbar-brand{
+    font-family: 'Pangolin', cursive;
+    font-size: 30px !important;
+}
+#DPNAM{
+    border: none;
+}
+#DPNAV{
+    color:grey;
+    font-weight: 400 !important;
+    font-family: 'DM Mono', monospace;
+    justify-content: center;
+}
+#DPNAV:hover{transition: .3S;
+    color: whitesmoke;
+
+
+}
+.carousel-caption h5{ font-size:40px ;
+    font-weight: 800;
+    font-family:'DM Mono', monospace ;
+    color: black;
+    margin: 0px;
+}
+
+
+.carousel-caption  p{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 700;
+    color: black;
+
+
+    
+}
+
+
+
+@media(max-width:774px){
+    .carousel-caption{
+        padding: 20px 0px;
+        margin:0px;
+
+    }
+
+}
+
+@media(max-width:540px){
+    .carousel-caption{
+        width: auto;
+        padding: 10px 0px;
+        margin: 0px;
+    }
+
+}
+@media(max-width:480px){
+    .carousel-caption{
+        width: auto;
+        padding: 10px 0px;
+        margin: 0px;
+    }
+}
+@media(max-width:380px){
+    .carousel-caption{
+        width: auto;
+        padding: 5px 0px !important;
+        margin: 5px 0px !important;
+        line-height: 18px !important;
+    }
+}
+
+ @media(max-width:744px){
+    .carousel-caption  p{
+        font-size: 15px;
+        display: inline;
+        padding: none;
+        margin: none;
+        width: auto;
+        line-height: 0px;
+    }
+    .carousel-caption  h5{
+        font-size: 20px;
+        font-weight: bold;
+        padding: none;
+        margin: none;
+        
+    }
+}
+@media(max-width:540px){
+    .carousel-caption  p{
+        font-size: 12px;
+        display: inline;
+        padding: none;
+        margin: none;
+        width: auto;
+        line-height: none;
+        
+    }
+    .carousel-caption  h5{
+        font-size: 15px;
+        font-weight: bold;
+        padding: 5px 0px 0px 0px;
+        margin: none;
+        line-height: none;
+        
+        
+    }
+}
+ @media(max-width:480px){ 
+    .carousel-caption  p{
+        font-size: 9px;
+        display: inline;
+        padding: none;
+        margin: none;
+        width: auto;
+        line-height: none;
+        height: fit-content;
+        
+    }
+    .carousel-caption  h5{
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px 0px 0px 0px;
+        margin: none;
+        line-height: none;
+        height:fit-content
+        
+    }
+}
+@media(max-width:380px){
+    .carousel-caption  p{
+        font-size: 9px;
+        display: inline;
+        padding: none;
+        margin: none;
+        width: auto;
+        line-height: none;
+    }
+    .carousel-caption  h5{
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px 0px 0px 0px;
+        margin: 5px 0px 0px 0px;
+        line-height: none;
+        height:fit-content
+        
+    } 
+}
+.welco{
+    text-align: center;
+    padding: 50px 0px 60px;
+    
+
+}
+#welcome h1{
+    font-family: 'Pangolin', cursive;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#welcome p {max-width: 720px;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+ @media(max-width:670px){
+    #welcome h1 span{display:inline-table }
+} 
+@media(max-width:420px){
+    #welcome h1{
+        font-size: 30px;
+        font-weight: normal;
+        margin-bottom: 20px;
+        font-family: 'Pangolin', cursive;
+        font-weight: 500;
+    }
+    #welcome h1 span{display:inline-table }
+    #welcome p {max-width: auto;
+        
+        font-size: 15px;
+        margin:0 auto;}
+}
+/* .why1{
+    background: #eff7fb;
+} */
+#why{
+    background-color:#E0E0E0;
+}
+#why h1{
+    font-family: serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#why .ite{
+    margin-top: 30px ;
+    
+    box-shadow: 10px 10px 10px 5px #990066;
+    border-radius: 20px;
+}
+#why .ite i{
+    font-size: 42px;
+    margin: 10px 0px;
+    color: rgb(239,75,149)
+}
+#why .ite h2{
+    font-family: 'Pangolin', cursive;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+    
+}
+#why .ite p{
+font-family: Arial, Helvetica, sans-serif;}
+#gallery h1{
+    font-family: 'Pangolin', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(239,75,149);
+    text-shadow:2px 2px  palevioletred;
+    margin-bottom: 30px;
+}
+.gal{ overflow: hidden;
+    border-radius: 3px;
+}
+.img-thumbnail{
+    width: 400px;
+    height: 400px;
+    margin:  10px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+}
+.foot{
+    
+    font-size: 20px;
+    font-weight:300 !important ;
+    height:50px;
+    line-height: 0px;
+    
+}
+.foot h4{
+padding-top: 10px;
+font-size: 20px;
+margin:0px 40px 0px 40px;
+}

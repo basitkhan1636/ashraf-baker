@@ -1,0 +1,264 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav-link{
+
+    font-weight: 400 !important;
+    font-family: 'DM Mono', monospace;
+
+}
+.navbar-brand{
+    font-family: 'Pangolin', cursive;
+    font-size: 30px !important;
+}
+#DPNAM{
+    border: none;
+}
+#DPNAV{
+    color:grey;
+    font-weight: 400 !important;
+    font-family: 'DM Mono', monospace;
+    justify-content: center;
+}
+#DPNAV:hover{transition: .3S;
+    color: whitesmoke;
+
+
+}
+#promo1{
+    text-align: center;
+    padding: 40px;
+    background:url(assets/jumbton.jpg);
+    background-size: cover;
+}
+#promo1 .jumbotron{
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.75);
+    max-width: 930px;
+    margin: 0 auto;
+    box-shadow: 10px 7px 10px 7px;
+}
+#promo1 .jumbotron h1{
+        font-family: 'Pangolin', cursive;
+    }
+.jumbotron p{
+    padding-top:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight:520;
+
+
+}
+
+@media(max-width:1022px)
+{#promo1 {
+     padding:20px;
+}
+}
+@media(max-width:991px)
+{#promo1 {
+     padding:20px;
+}
+}
+@media(max-width:991px)
+{#promo1 .jumbotron{
+     padding:20px;
+}
+}
+
+@media(max-width:924px){
+    #welcome h1 span{display:inline-table }
+}
+
+@media(max-width:899px){
+    #welcome h1 span{display:inline-table }
+}
+@media(max-width:899px){
+    #welcome h1 span{display:inline-table }
+}
+@media(max-width:610px){
+    #welcome h1 span{display:inline-table }
+    #welcome h1{font-size: 48px;
+     font-weight: 400;
+             
+         }
+         .jumbotron p{ font-weight: lighter; }
+ }
+@media(max-width:590px){
+#welcome h1 span{display:inline-table }
+#welcome h1{font-size: 46px;
+     font-weight: 400;
+}
+.jumbotron p{ font-weight: lighter;
+                font-size: 24px;
+    }
+ }
+@media(max-width:509px){
+#welcome h1 span{display:inline-table }
+#welcome h1{font-size: 40px;
+    font-weight: 400;
+}
+.jumbotron p{ font-weight: lighter; 
+         font-size: 24px;
+        
+    }
+}
+@media(max-width:476px){
+    #welcome h1 span{display:inline-table }
+    #welcome h1{font-size: 30px;
+        font-weight: 400;
+        
+       }
+       .jumbotron p{ font-weight: lighter;
+            font-size:22px ;
+            padding-top:15px;
+        }
+}
+@media(max-width:441px){
+    #welcome h1 span{display:inline-table }
+    #welcome h1{font-size: 30px;
+    font-weight:400px ;}
+    .jumbotron p{ font-weight: lighter;
+        font-size:20px ;
+        padding-top:13px;}
+
+}
+@media(max-width:380px){
+    #welcome h1 span{display:inline-table }
+    #welcome h1{font-size: 25px;
+    font-weight:400px ;}
+    .jumbotron p{ font-weight: none;
+        font-size:18px ;
+        padding-top:6px;
+        }
+}
+
+
+.products{
+    font-weight:600 ;
+    font-family: 'Pangolin', cursive ;
+    color: rgb(239,75,149);
+    font-size:60px ;
+    
+    text-align: center;
+    text-shadow:2px 2px  palevioletred;
+
+}
+#prod{
+    margin:0 auto;
+    padding: 30px 60px;
+}
+.product1{
+    margin: 50px 20px;
+    
+}
+.product1{display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.cakem{
+    padding: 20px 20px;
+    margin: 40px 10px;
+    width: 700px;
+}
+.cakem h1{
+    font-weight: 600;
+    text-align: left;
+    font-family:'DM Mono', monospace; 
+}
+.cakem p{
+    padding-left:10px;
+    padding-right: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    
+}
+.cakeim{
+    
+    padding: 10px 10px;
+    margin: 0px;
+    text-align: center;
+}    
+
+
+@media(max-width:1306px){
+    .cakem{
+    padding: 20px 20px;
+    margin: 50px 10px;
+    width: max-content;}
+}
+.product2{margin: 50px 20px;}
+.product2{display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+
+}
+.services{
+    text-align: center;
+    padding: 50px 0px 60px;
+    
+}
+#why{
+    background-color:#E0E0E0;
+}
+#why h1{
+    font-family: serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#why .ite{
+    margin-top: 30px ;
+    
+    box-shadow: 10px 10px 10px 5px #990066;
+    border-radius: 20px;
+}
+#why .ite i{
+    font-size: 42px;
+    margin: 10px 0px;
+    color: rgb(239,75,149)
+}
+
+#why .ite a{
+    font-size: 42px;
+    margin: 10px 0px;
+    color: rgb(239,75,149)
+}
+#why .ite h2{
+    font-family: 'Pangolin', cursive;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+    
+}
+#why .ite p{
+font-family: Arial, Helvetica, sans-serif;}
+#itembut{
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+}
+.foot{
+    font-size: 20px;
+    font-weight:300 !important ;
+    height:50px;
+    line-height: 0px;
+    
+}
+.foot h4{
+padding-top: 10px;
+font-size: 20px;
+margin:0px 40px 0px 40px;
+}
